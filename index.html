@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title>
+        Title page
+    </title>
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <h1>
+        Header 1
+    </h1>
+    <h1>
+        Header 2
+    </h1>
+    <h1>
+        Header 3
+    </h1>
+    <h1>
+        Header 4
+    </h1>
+    <h1>
+        Header 5
+    </h1>
+    <h1>
+        Header 6
+    </h1>
+    <main>
+        <section>
+            <!--ul gives bullet points, ol gives numbered points-->
+            <ul class="item">
+                <li>
+                    Item 1
+                </li>
+                <li>
+                    Item 2
+                </li>
+            </ul>
+            <ol class="item ordered">
+                <li>
+                    Item 1
+                </li>
+                <li>
+                    Item 2
+                </li>
+            </ol>
+        </section>
+        <section>
+            <!--if you target a class it selects all elements of that class i.e. class="item" selects both ul and ol-->
+            <!--an element can have more than one class i.e. class="item ordered"-->
+            <p>
+                Paragraph goes here
+            </p>
+            <img src="./assets/pic.jpg" width="200" height="200" alt="pic of card" />
+            <a href="./assets/inner.html" target="_blank">
+                link
+                <!--inner html link, if you click on it, it opens on the same page. target makes it open on a new page-->
+            </a>
+            <!--no linebreaks <br> after learning css-->
+            <form>
+                <fieldset>
+                    <legend>
+                        Title of the form
+                    </legend>
+                    <label for="FirstName">Name:</label>
+                    <input type="text" id="FirstName" />
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" />
+                    <label for="hp">Harry Potter:</label>
+                    <input type="radio" name="movie" id="hp" />
+                    <label for="lotr">Lord of the Rings:</label>
+                    <input type="radio" name="movie" id="lotr" />
+                    <!--type="checkbox" instead of "radio" if you want to select both movies-->
+                    <input type="submit" value="submit" />
+                    <!--value shows what will be displayed-->
+                </fieldset>
+            </form>
+            <select>
+                <option value="Mx">
+                    Mexico
+                </option>
+                <option value="Fr">
+                    France
+                </option>
+                <option value="UK">
+                    UK
+                </option>
+                <option value="De">
+                    Denmark
+                </option>
+            </select>
+            <table>
+                <head>
+                    <tr>
+                        <th>
+                            Column 1
+                        </th>
+                        <th>
+                            Column 2
+                        </th>
+                        <th>
+                            Column 3
+                        </th>
+                        <th>
+                            Column 4
+                        </th>
+                    </tr>
+                </head>
+                <tbody>
+                    <tr>
+                        <td>
+                            1
+                        </td>
+                        <td>
+                            2
+                        </td>
+                        <td>
+                            3
+                        </td>
+                        <td>
+                            4
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            5
+                        </td>
+                        <td>
+                            6
+                        </td>
+                        <td>
+                            7
+                        </td>
+                        <td>
+                            8
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            9
+                        </td>
+                        <td>
+                            10
+                        </td>
+                        <td>
+                            11
+                        </td>
+                        <td>
+                            12
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <textarea>
+            This is a text area. It is a space with a changeable size in which to write.
+        </textarea>
+            <div>
+                div is an object that determines the layout of a section of the page. It is a block
+                element and covers all the width from left to right.
+            </div>
+            <span>
+                span is similar to the div element except that it doesn't cover all the width from left to right
+                if it doesn't need to. Fills only the space needed. Is an in-line element, not a block
+                element. Do not put block elements inside in-line elements.
+            </span>
+        </section>
+        <address>
+            My house
+            My street
+            My city
+            Postcode
+        </address>
+    </main>
+    <footer>
+        The footer
+    </footer>
+</body>
+
+</html>
